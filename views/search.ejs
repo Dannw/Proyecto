@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>Registro UAZ</title>
+      <link rel="shortcut icon" href="img/logo.png">
+
+      <!-- Bootstrap -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/misestilos2.css">
+      <!-- Icons -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <div id="agrupar">
+    <header id="cabecera">
+        <div id="head" class="parallax" parallax-speed="2">
+          <img class="img-circle" src="img/logo.png" alt="" >
+          <h1 id="logo" class="text-center">
+            <span class="tagline">UNIVERSIDAD AUTONOMA DE ZACATECAS<br>
+          </h1>
+        </div>
+    </header>
+
+  <section id="seccion">
+    <h1 id="titulo-buscar">Buscar Alumno:</h1>
+    <br>
+    <form action="" class="formulario__login">
+    <div class="col input-group col-sm" style="margin-top: 10px">
+              <input name="whCurp" class="input--style-4 form-control" type="text" id="whCurp" oninput="validarInput(this)" placeholder="CURP" 
+              pattern="^[A-Z][A,E,I,O,U,X][A-Z]{2}[0-9]{2}[0-1][0-9][0-3][0-9][M,H][A-Z]{2}[B,C,D,F,G,H,J,K,L,M,N,Ñ,P,Q,R,S,T,V,W,X,Y,Z]{3}[0-9,A-Z][0-9]$">
+              
+              <button formmethod="post" formaction="/find" class="btn-property btn--radius-2 btn--uaz btn-outline-secondary" style="float: center">Buscar</button>
+              </div>
+    </form>      
+            
+    <div class="container">
+     <footer id="pie" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+       <div class="col-md-4 d-flex align-items-center">
+         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+         </a>
+         <span class="text-muted">&copy; 2022 UNIVERSIDAD AUTONOMA DE ZACATECAS</span>
+       </div>
+     </footer>
+   </div>
+
+   </div>
+   <script src="js/theme.js"></script>
+   </body>
+   </html>
