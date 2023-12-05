@@ -1,0 +1,11 @@
+{
+	"alumnos": {
+		"primerapellido": "apellidouno",
+		"segundoapellido": "apellidodos",
+	    "nombre": "nombre",
+	    "fechanac": "date",
+	    "entidad": "entidad",
+	    "genero": "H",
+	    "curp": "curp"
+	}
+}
