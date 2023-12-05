@@ -1,0 +1,166 @@
+
+
+#head {
+  background-size: cover;
+  color: #ffffff;
+  padding: 30px 0 35px 0;
+}
+#head img.img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#head .title {
+  font-family: Alice, Georgia, serif;
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+#head .tagline {
+  display: block;
+  font-size: 30px;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  color: #ffffff;
+  margin: 5px 0 0;
+}
+
+.main_title {
+  text-align: center;
+  max-width: 720px;
+  margin: 0px auto 45px;
+}
+
+@media (max-width: 991px) {
+  .main_title {
+    padding: 0px 15px !important;
+  }
+}
+
+.main_title h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+  margin-top: 5rem;
+}
+
+/* footer */
+
+footer {
+  background: #292929;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #1a375d;
+}
+
+.content-foo {
+  text-align: center;
+}
+
+.content-foo h4 {
+  color: #000000;
+  border-bottom: 3px solid #40e0d0;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p {
+  color: #000000;
+}
+
+.titulo-final {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #000000;
+}
+.margin-left {
+  margin-left: 8%;
+}
+
+.descripcion {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.hyphenation {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.ofrecemos {
+  border-radius: 10px;
+}
+
+.entidad {
+  flex: auto;
+  min-width: 50px;
+  min-height: 50px;
+  border: none;
+}
+
+.aaa{
+  color: #888888;
+
+}
+
+.bd--{
+  border-color: #888888;
+}
+
+select:focus{
+  border-radius: none;
+}
+
+option:not(:first-of-type) {
+  color: #FFFFFF;
+}
+
+.margin-3{
+  padding: 3%;
+}
+
+.space{
+  opacity: 0%;
+}
+
+.message {
+  color:#000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.question:link {
+  color: black;
+}
+
+.question:visited {
+  color: black;
+}
+
+.question:active {
+  background: #75580e;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+}
