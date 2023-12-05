@@ -1,2 +1,7 @@
 hola gola cara de cola
 me caes bien padre JAJJAJAJAJ
+public class ApocoSi{
+private string apocosi;
+
+system.out.prln("alch q bno");
+}
